@@ -1,0 +1,601 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Sentinel IT Solutions",
+          "path": "/homepage",
+          "heroTitle": "IT That Works While You Work",
+          "heroSubtitle": "Managed Services. Cybersecurity. Cloud Solutions.",
+          "heroDescription": {
+            "processed": "<p>Sentinel IT Solutions is your dedicated technology partner. We proactively manage, secure, and optimize your IT infrastructure so you can focus on growing your business.</p>",
+            "summary": "Sentinel IT Solutions is your dedicated technology partner. We proactively manage, secure, and optimize your IT infrastructure so you can focus on growing your business."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-uptime",
+              "title": "",
+              "number": "99.97%",
+              "label": "Average Uptime"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-clients",
+              "title": "",
+              "number": "350+",
+              "label": "Businesses Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-endpoints",
+              "title": "",
+              "number": "18,000+",
+              "label": "Endpoints Managed"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-response",
+              "title": "",
+              "number": "<15 min",
+              "label": "Avg Response Time"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Let's Secure Your Business",
+          "ctaDescription": {
+            "processed": "<p>Schedule a free IT assessment and discover how Sentinel can reduce downtime, strengthen security, and lower your technology costs.</p>",
+            "summary": "Schedule a free IT assessment and discover how Sentinel can reduce downtime, strengthen security, and lower your technology costs."
+          },
+          "ctaPrimary": "Get a Free Assessment",
+          "ctaSecondary": "View Case Studies"
+        }
+      }
+    }
+  },
+  "/services/managed-it": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-managed-it",
+          "title": "Managed IT Services",
+          "path": "/services/managed-it",
+          "body": {
+            "processed": "<p>Our fully managed IT services provide 24/7 monitoring, maintenance, and support for your entire technology stack. We act as your outsourced IT department, handling everything from patch management to strategic planning.</p><h2>What's Included</h2><ul><li>24/7 network and server monitoring</li><li>Automated patch management and updates</li><li>Proactive maintenance and health checks</li><li>Vendor management and procurement</li><li>Strategic IT roadmap planning</li><li>Monthly reporting and business reviews</li></ul>",
+            "summary": "Our fully managed IT services provide 24/7 monitoring, maintenance, and support for your entire technology stack. We act as your outsourced IT department, handling everything from patch management to "
+          },
+          "serviceCategory": [
+            {
+              "id": "managed-it",
+              "name": "managed-it"
+            }
+          ],
+          "iconName": "server",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+            "alt": "Server room with managed IT infrastructure",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "priceRange": "Starting at $99/user/month"
+        }
+      }
+    }
+  },
+  "/services/cybersecurity": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-cybersecurity",
+          "title": "Cybersecurity & Compliance",
+          "path": "/services/cybersecurity",
+          "body": {
+            "processed": "<p>Protect your business from evolving cyber threats with our comprehensive security services. From endpoint protection to compliance auditing, we build layered defenses that keep your data safe.</p><h2>Security Solutions</h2><ul><li>Endpoint Detection & Response (EDR)</li><li>Security Information & Event Management (SIEM)</li><li>Multi-factor authentication deployment</li><li>Security awareness training programs</li><li>Compliance auditing (HIPAA, PCI-DSS, SOC 2)</li><li>Incident response planning and tabletop exercises</li></ul>",
+            "summary": "Protect your business from evolving cyber threats with our comprehensive security services. From endpoint protection to compliance auditing, we build layered defenses that keep your data safe.Security"
+          },
+          "serviceCategory": [
+            {
+              "id": "cybersecurity",
+              "name": "cybersecurity"
+            }
+          ],
+          "iconName": "shield-check",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+            "alt": "Cybersecurity digital lock and shield",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "priceRange": "Custom pricing"
+        }
+      }
+    }
+  },
+  "/services/cloud-solutions": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-cloud",
+          "title": "Cloud Solutions & Migration",
+          "path": "/services/cloud-solutions",
+          "body": {
+            "processed": "<p>Modernize your infrastructure with expert cloud services. Whether you're migrating to Microsoft 365, deploying Azure infrastructure, or building a hybrid cloud strategy, we guide you through every step.</p><h2>Cloud Capabilities</h2><ul><li>Microsoft 365 deployment and management</li><li>Azure and AWS infrastructure design</li><li>Cloud migration planning and execution</li><li>Hybrid cloud architecture</li><li>Cloud backup and disaster recovery</li><li>Cost optimization and right-sizing</li></ul>",
+            "summary": "Modernize your infrastructure with expert cloud services. Whether you're migrating to Microsoft 365, deploying Azure infrastructure, or building a hybrid cloud strategy, we guide you through every ste"
+          },
+          "serviceCategory": [
+            {
+              "id": "cloud-services",
+              "name": "cloud-services"
+            }
+          ],
+          "iconName": "cloud",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+            "alt": "Cloud computing network visualization",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "priceRange": "Starting at $2,500/month"
+        }
+      }
+    }
+  },
+  "/services/helpdesk-support": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-helpdesk",
+          "title": "Help Desk & End-User Support",
+          "path": "/services/helpdesk-support",
+          "body": {
+            "processed": "<p>Give your employees fast, friendly IT support whenever they need it. Our US-based help desk team resolves issues quickly so your team stays productive.</p><h2>Support Features</h2><ul><li>Phone, email, and chat support channels</li><li>Remote troubleshooting and resolution</li><li>On-site support when needed</li><li>Self-service portal and knowledge base</li><li>New employee onboarding and offboarding</li><li>Hardware provisioning and setup</li></ul>",
+            "summary": "Give your employees fast, friendly IT support whenever they need it. Our US-based help desk team resolves issues quickly so your team stays productive.Support FeaturesPhone, email, and chat support ch"
+          },
+          "serviceCategory": [
+            {
+              "id": "helpdesk",
+              "name": "helpdesk"
+            }
+          ],
+          "iconName": "headset",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80",
+            "alt": "IT support professional helping a client",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "priceRange": "Starting at $49/user/month"
+        }
+      }
+    }
+  },
+  "/case-studies/meridian-health": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCaseStudy",
+          "id": "case-study-meridian",
+          "title": "Meridian Health - HIPAA-Compliant Cloud Migration",
+          "path": "/case-studies/meridian-health",
+          "body": {
+            "processed": "<p>Meridian Health, a regional healthcare provider with 12 clinics and 800 employees, needed to modernize their aging on-premises infrastructure while maintaining strict HIPAA compliance.</p><h2>The Challenge</h2><p>Meridian was running critical applications on end-of-life servers with no redundancy. Staff frequently experienced downtime, and the IT team was overwhelmed with reactive break-fix work.</p><h2>Our Solution</h2><ul><li>Migrated 15 servers to Azure with HIPAA-compliant configuration</li><li>Deployed Microsoft 365 with Intune device management</li><li>Implemented EDR and SIEM for continuous security monitoring</li><li>Established disaster recovery with 1-hour RTO</li></ul><h2>Results</h2><p>Within six months, Meridian reduced unplanned downtime by 94%, achieved full HIPAA compliance, and reduced IT costs by 30% compared to maintaining on-premises hardware.</p>",
+            "summary": "Meridian Health, a regional healthcare provider with 12 clinics and 800 employees, needed to modernize their aging on-premises infrastructure while maintaining strict HIPAA compliance.The ChallengeMer"
+          },
+          "industry": [
+            {
+              "id": "healthcare",
+              "name": "healthcare"
+            }
+          ],
+          "clientName": "Meridian Health Group",
+          "resultsSummary": "94% reduction in downtime, HIPAA compliance achieved, 30% cost savings",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+            "alt": "Healthcare facility with modern technology",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/case-studies/sterling-law": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCaseStudy",
+          "id": "case-study-sterling",
+          "title": "Sterling Law Group - Zero Trust Security Transformation",
+          "path": "/case-studies/sterling-law",
+          "body": {
+            "processed": "<p>Sterling Law Group, a mid-size law firm handling sensitive litigation, experienced a phishing attack that compromised two employee accounts. They needed an immediate security overhaul.</p><h2>The Challenge</h2><p>The firm had minimal security infrastructure -- basic antivirus, no MFA, and employees using personal devices to access client files. Attorney-client privilege demanded the highest level of data protection.</p><h2>Our Solution</h2><ul><li>Deployed zero trust network architecture</li><li>Implemented MFA across all applications and VPN access</li><li>Enrolled all devices in endpoint management with encryption</li><li>Conducted quarterly security awareness training</li></ul><h2>Results</h2><p>In the 18 months since implementation, Sterling has experienced zero security incidents. They passed their first SOC 2 Type II audit and now use their security posture as a competitive differentiator when pitching to clients.</p>",
+            "summary": "Sterling Law Group, a mid-size law firm handling sensitive litigation, experienced a phishing attack that compromised two employee accounts. They needed an immediate security overhaul.The ChallengeThe"
+          },
+          "industry": [
+            {
+              "id": "legal",
+              "name": "legal"
+            }
+          ],
+          "clientName": "Sterling Law Group",
+          "resultsSummary": "Zero security incidents in 18 months, SOC 2 Type II certified",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+            "alt": "Modern law office with secure workstations",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/case-studies/apex-manufacturing": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCaseStudy",
+          "id": "case-study-apex",
+          "title": "Apex Manufacturing - IT Consolidation & Cost Reduction",
+          "path": "/case-studies/apex-manufacturing",
+          "body": {
+            "processed": "<p>Apex Manufacturing, with 3 production facilities and 500 employees, was managing IT through a patchwork of local vendors and in-house staff with inconsistent results and rising costs.</p><h2>The Challenge</h2><p>Each facility had its own network design, different endpoint management tools, and no centralized monitoring. IT spend was growing 20% year-over-year with no improvement in service quality.</p><h2>Our Solution</h2><ul><li>Consolidated all locations under a single managed services agreement</li><li>Standardized networking equipment and configuration</li><li>Deployed centralized monitoring and ticketing</li><li>Implemented SD-WAN for reliable inter-site connectivity</li></ul><h2>Results</h2><p>Apex reduced annual IT spending by $180,000, improved network uptime to 99.98%, and freed their internal IT staff to focus on manufacturing-specific technology projects.</p>",
+            "summary": "Apex Manufacturing, with 3 production facilities and 500 employees, was managing IT through a patchwork of local vendors and in-house staff with inconsistent results and rising costs.The ChallengeEach"
+          },
+          "industry": [
+            {
+              "id": "manufacturing",
+              "name": "manufacturing"
+            }
+          ],
+          "clientName": "Apex Manufacturing Inc.",
+          "resultsSummary": "$180K annual savings, 99.98% uptime, consolidated 3 facilities",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+            "alt": "Modern manufacturing facility with technology integration",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/david-park": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-david",
+          "title": "David Park",
+          "path": "/team/david-park",
+          "body": {
+            "processed": "<p>David founded Sentinel IT Solutions in 2012 after spending 15 years in enterprise IT management. His vision was to bring enterprise-grade IT services to small and mid-size businesses at an accessible price point. Under his leadership, Sentinel has grown to serve over 350 businesses across the Midwest.</p>",
+            "summary": "David founded Sentinel IT Solutions in 2012 after spending 15 years in enterprise IT management. His vision was to bring enterprise-grade IT services to small and mid-size businesses at an accessible "
+          },
+          "position": "Founder & CEO",
+          "certifications": [
+            "CISSP",
+            "PMP",
+            "ITIL v4 Master"
+          ],
+          "email": "david@sentinelit.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "David Park - Founder & CEO",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/rachel-kim": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-rachel",
+          "title": "Rachel Kim",
+          "path": "/team/rachel-kim",
+          "body": {
+            "processed": "<p>Rachel leads Sentinel's cybersecurity practice, bringing over a decade of experience from roles at Mandiant and CrowdStrike. She designs and implements security programs that protect our clients from the latest threats while keeping them compliant with industry regulations.</p>",
+            "summary": "Rachel leads Sentinel's cybersecurity practice, bringing over a decade of experience from roles at Mandiant and CrowdStrike. She designs and implements security programs that protect our clients from "
+          },
+          "position": "Director of Security",
+          "certifications": [
+            "CISSP",
+            "CEH",
+            "CISM",
+            "CompTIA Security+"
+          ],
+          "email": "rachel@sentinelit.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Rachel Kim - Director of Security",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/marcus-thompson": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-marcus",
+          "title": "Marcus Thompson",
+          "path": "/team/marcus-thompson",
+          "body": {
+            "processed": "<p>Marcus oversees all cloud infrastructure projects at Sentinel. A certified Azure Solutions Architect and AWS Professional, he has led over 100 cloud migration projects ranging from small office setups to complex multi-cloud enterprise environments.</p>",
+            "summary": "Marcus oversees all cloud infrastructure projects at Sentinel. A certified Azure Solutions Architect and AWS Professional, he has led over 100 cloud migration projects ranging from small office setups"
+          },
+          "position": "Cloud Solutions Architect",
+          "certifications": [
+            "Azure Solutions Architect Expert",
+            "AWS Solutions Architect Professional",
+            "Google Cloud Professional"
+          ],
+          "email": "marcus@sentinelit.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+            "alt": "Marcus Thompson - Cloud Solutions Architect",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-about",
+          "title": "About Sentinel IT Solutions",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Sentinel IT Solutions is a managed service provider headquartered in Chicago, Illinois, serving small and mid-size businesses across the Midwest since 2012.</p><h2>Our Approach</h2><p>We believe IT should be proactive, not reactive. Our managed services model means we prevent problems before they impact your business, rather than waiting for things to break. Every client gets a dedicated account manager who understands their business and technology goals.</p><h2>Why Sentinel?</h2><ul><li><strong>Predictable Pricing</strong> - Fixed monthly fees with no surprise charges</li><li><strong>US-Based Support</strong> - Our entire team is based in the United States</li><li><strong>Industry Expertise</strong> - Deep experience in healthcare, legal, finance, and manufacturing</li><li><strong>24/7 Monitoring</strong> - We never sleep so your systems don't either</li></ul>",
+            "summary": "Sentinel IT Solutions is a managed service provider headquartered in Chicago, Illinois, serving small and mid-size businesses across the Midwest since 2012.Our ApproachWe believe IT should be proactiv"
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "page-contact",
+          "title": "Contact Us",
+          "path": "/contact",
+          "body": {
+            "processed": "<h2>Get in Touch</h2><p>Whether you need a quick consultation or a full IT assessment, we're here to help. Our team responds to all inquiries within one business day.</p><h2>Office Location</h2><p>233 S. Wacker Drive, Suite 4200<br/>Chicago, IL 60606</p><h2>Hours</h2><p>Help Desk: 24/7/365<br/>Sales & Consulting: Monday-Friday, 8:00 AM - 6:00 PM CST</p><h2>Emergency Support</h2><p>Existing clients can reach our emergency support line at any time for critical issues affecting business operations.</p>",
+            "summary": "Get in TouchWhether you need a quick consultation or a full IT assessment, we're here to help. Our team responds to all inquiries within one business day.Office Location233 S. Wacker Drive, Suite 4200"
+          }
+        }
+      }
+    }
+  }
+}

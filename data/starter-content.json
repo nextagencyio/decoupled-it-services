@@ -1,0 +1,262 @@
+{
+  "model": [
+    {
+      "bundle": "homepage",
+      "label": "Homepage",
+      "description": "Landing page with hero section, features, and call-to-action areas",
+      "fields": [
+        { "id": "hero_title", "label": "Hero Title", "type": "string" },
+        { "id": "hero_subtitle", "label": "Hero Subtitle", "type": "string" },
+        { "id": "hero_description", "label": "Hero Description", "type": "text" },
+        { "id": "features_title", "label": "Features Section Title", "type": "string" },
+        { "id": "features_subtitle", "label": "Features Section Subtitle", "type": "string" },
+        { "id": "features_items", "label": "Feature Items", "type": "paragraph(feature_item)[]" },
+        { "id": "cta_title", "label": "CTA Section Title", "type": "string" },
+        { "id": "cta_description", "label": "CTA Description", "type": "text" },
+        { "id": "cta_primary", "label": "Primary CTA Text", "type": "string" },
+        { "id": "cta_secondary", "label": "Secondary CTA Text", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "service",
+      "label": "Service",
+      "description": "An IT service offering with details and imagery",
+      "body": true,
+      "fields": [
+        { "id": "image", "label": "Service Image", "type": "image", "description": "Image representing the service" }
+      ]
+    },
+    {
+      "bundle": "case_study",
+      "label": "Case Study",
+      "description": "Client success story showcasing project results",
+      "body": true,
+      "fields": [
+        { "id": "client_name", "label": "Client Name", "type": "string" },
+        { "id": "industry", "label": "Industry", "type": "string" },
+        { "id": "results", "label": "Results", "type": "string" },
+        { "id": "image", "label": "Case Study Image", "type": "image" }
+      ]
+    },
+    {
+      "bundle": "team_member",
+      "label": "Team Member",
+      "description": "IT professional profile with certifications",
+      "body": true,
+      "fields": [
+        { "id": "position", "label": "Position", "type": "string" },
+        { "id": "email", "label": "Email", "type": "string" },
+        { "id": "phone", "label": "Phone", "type": "string" },
+        { "id": "photo", "label": "Photo", "type": "image" },
+        { "id": "certifications", "label": "Certifications", "type": "string" }
+      ]
+    },
+    {
+      "bundle": "page",
+      "label": "Basic Page",
+      "description": "Static content pages for about, policies, etc.",
+      "body": true,
+      "fields": []
+    },
+    {
+      "entity": "paragraph",
+      "bundle": "feature_item",
+      "label": "Feature Item",
+      "description": "Individual feature highlight with icon, title, and description",
+      "fields": [
+        { "id": "icon", "label": "Icon", "type": "string" },
+        { "id": "title", "label": "Title", "type": "string!" },
+        { "id": "description", "label": "Description", "type": "text" }
+      ]
+    }
+  ],
+  "content": [
+    {
+      "id": "feature-monitoring",
+      "type": "paragraph.feature_item",
+      "values": { "icon": "Monitor", "title": "24/7 Monitoring", "description": "Round-the-clock infrastructure monitoring with instant alerting and automated incident response." }
+    },
+    {
+      "id": "feature-security",
+      "type": "paragraph.feature_item",
+      "values": { "icon": "ShieldCheck", "title": "Cybersecurity", "description": "Multi-layered security solutions including firewalls, endpoint protection, and threat intelligence." }
+    },
+    {
+      "id": "feature-cloud",
+      "type": "paragraph.feature_item",
+      "values": { "icon": "Cloud", "title": "Cloud Solutions", "description": "Strategic cloud migration and management across AWS, Azure, and Google Cloud platforms." }
+    },
+    {
+      "id": "feature-support",
+      "type": "paragraph.feature_item",
+      "values": { "icon": "HeadphonesIcon", "title": "Help Desk", "description": "Responsive IT support with guaranteed SLAs and dedicated account management." }
+    },
+    {
+      "id": "feature-backup",
+      "type": "paragraph.feature_item",
+      "values": { "icon": "Database", "title": "Backup & Recovery", "description": "Automated backup systems with tested disaster recovery plans and minimal downtime." }
+    },
+    {
+      "id": "feature-compliance",
+      "type": "paragraph.feature_item",
+      "values": { "icon": "FileCheck", "title": "Compliance", "description": "HIPAA, SOC 2, and PCI DSS compliance consulting and audit preparation." }
+    },
+    {
+      "id": "homepage",
+      "type": "node.homepage",
+      "path": "/homepage",
+      "values": {
+        "title": "TechGuard IT Solutions Homepage",
+        "hero_title": "Secure IT Solutions for Growing Businesses",
+        "hero_subtitle": "TechGuard IT Solutions",
+        "hero_description": "<p>Protect your business with enterprise-grade IT services. From cybersecurity to cloud migration, we keep your technology running so you can focus on growth.</p>",
+        "features_title": "Our Capabilities",
+        "features_subtitle": "Comprehensive managed IT services designed to protect, optimize, and scale your infrastructure.",
+        "features_items": ["@feature-monitoring", "@feature-security", "@feature-cloud", "@feature-support", "@feature-backup", "@feature-compliance"],
+        "cta_title": "Protect Your Business Today",
+        "cta_description": "<p>Schedule a free IT assessment and discover how TechGuard can strengthen your security posture and streamline your operations.</p>",
+        "cta_primary": "Get Assessment",
+        "cta_secondary": "View Services"
+      }
+    },
+    {
+      "id": "service-managed-it",
+      "type": "node.service",
+      "path": "/services/managed-it",
+      "values": {
+        "title": "Managed IT Services",
+        "body": "<p>Our managed IT services provide comprehensive technology management so your team can focus on core business objectives. We handle everything from network administration to software updates and hardware lifecycle management.</p><h2>What's Included</h2><ul><li>Network monitoring and management</li><li>Server administration and maintenance</li><li>Desktop and laptop support</li><li>Software patch management</li><li>Vendor management and procurement</li></ul><h2>Service Levels</h2><p>Choose from Basic, Professional, or Enterprise tiers with guaranteed response times and dedicated technical account managers.</p>",
+        "image": { "uri": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80", "alt": "Server room with networking equipment", "title": "Managed IT Services" }
+      }
+    },
+    {
+      "id": "service-cybersecurity",
+      "type": "node.service",
+      "path": "/services/cybersecurity",
+      "values": {
+        "title": "Cybersecurity Solutions",
+        "body": "<p>Protect your organization from evolving cyber threats with our comprehensive security solutions. We implement defense-in-depth strategies tailored to your risk profile and compliance requirements.</p><h2>Security Services</h2><ul><li>Vulnerability assessments and penetration testing</li><li>Security information and event management (SIEM)</li><li>Email security and anti-phishing</li><li>Endpoint detection and response (EDR)</li><li>Security awareness training</li></ul>",
+        "image": { "uri": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80", "alt": "Cybersecurity digital shield concept", "title": "Cybersecurity Solutions" }
+      }
+    },
+    {
+      "id": "service-cloud",
+      "type": "node.service",
+      "path": "/services/cloud-migration",
+      "values": {
+        "title": "Cloud Migration & Management",
+        "body": "<p>Accelerate your digital transformation with strategic cloud migration services. We assess, plan, and execute migrations to AWS, Azure, or Google Cloud with minimal disruption.</p><h2>Our Approach</h2><ul><li>Cloud readiness assessment</li><li>Architecture design and optimization</li><li>Data migration and validation</li><li>Hybrid cloud solutions</li><li>Ongoing cloud cost optimization</li></ul>",
+        "image": { "uri": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80", "alt": "Cloud computing network visualization", "title": "Cloud Migration" }
+      }
+    },
+    {
+      "id": "service-disaster-recovery",
+      "type": "node.service",
+      "path": "/services/disaster-recovery",
+      "values": {
+        "title": "Disaster Recovery & Business Continuity",
+        "body": "<p>Ensure your business can recover from any disruption with our disaster recovery and business continuity planning services. We design, implement, and test recovery strategies that meet your RPO and RTO requirements.</p><h2>DR Services</h2><ul><li>Business impact analysis</li><li>Recovery strategy design</li><li>Automated backup solutions</li><li>Regular DR testing and validation</li><li>Incident response planning</li></ul>",
+        "image": { "uri": "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800&q=80", "alt": "Data center backup systems", "title": "Disaster Recovery" }
+      }
+    },
+    {
+      "id": "case-study-healthcare",
+      "type": "node.case_study",
+      "path": "/case-studies/regional-healthcare-network",
+      "values": {
+        "title": "Regional Healthcare Network Security Overhaul",
+        "body": "<p>A regional healthcare network with 12 clinics was struggling with outdated security infrastructure and HIPAA compliance gaps. Our team conducted a comprehensive security audit, implemented a zero-trust architecture, and deployed SIEM monitoring across all locations.</p><h2>The Challenge</h2><p>The client faced frequent phishing attempts, lacked centralized logging, and had inconsistent security policies across clinics.</p><h2>Our Solution</h2><p>We deployed a unified security platform with EDR, email filtering, multi-factor authentication, and 24/7 SOC monitoring. Staff received security awareness training to reduce human error risk.</p>",
+        "client_name": "MedFirst Health Network",
+        "industry": "Healthcare",
+        "results": "99.9% uptime, zero breaches in 18 months, full HIPAA compliance",
+        "image": { "uri": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80", "alt": "Healthcare technology systems", "title": "Healthcare Case Study" }
+      }
+    },
+    {
+      "id": "case-study-manufacturing",
+      "type": "node.case_study",
+      "path": "/case-studies/precision-manufacturing",
+      "values": {
+        "title": "Precision Manufacturing Cloud Transformation",
+        "body": "<p>A precision manufacturing company with 200 employees needed to modernize their on-premise infrastructure to support rapid growth and remote work. We led a phased cloud migration to Azure, migrating critical ERP and CAD systems while maintaining production uptime.</p><h2>Results</h2><p>The migration reduced infrastructure costs by 40%, enabled secure remote access for engineers, and improved system performance by 3x.</p>",
+        "client_name": "Apex Precision Manufacturing",
+        "industry": "Manufacturing",
+        "results": "40% cost reduction, 3x performance improvement, 100% uptime during migration",
+        "image": { "uri": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80", "alt": "Manufacturing facility with technology", "title": "Manufacturing Case Study" }
+      }
+    },
+    {
+      "id": "case-study-finance",
+      "type": "node.case_study",
+      "path": "/case-studies/atlantic-financial-group",
+      "values": {
+        "title": "Atlantic Financial Group Compliance & DR",
+        "body": "<p>A mid-sized financial services firm required SOC 2 Type II compliance and a robust disaster recovery solution to meet regulatory requirements and client expectations.</p><h2>Implementation</h2><p>We designed a compliant infrastructure, implemented automated backup with 15-minute RPO, and established a tested DR plan that ensures 4-hour RTO for critical systems.</p>",
+        "client_name": "Atlantic Financial Group",
+        "industry": "Financial Services",
+        "results": "SOC 2 Type II certified, 15-minute RPO, 4-hour RTO achieved",
+        "image": { "uri": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80", "alt": "Financial data analytics dashboard", "title": "Finance Case Study" }
+      }
+    },
+    {
+      "id": "team-david",
+      "type": "node.team_member",
+      "path": "/team/david-park",
+      "values": {
+        "title": "David Park",
+        "body": "<p>David founded TechGuard IT Solutions in 2015 after 15 years in enterprise IT leadership. He leads strategic direction and ensures every client receives personalized attention and world-class service.</p><p>Under his leadership, TechGuard has grown from a 3-person consultancy to a 45-person managed services provider serving over 100 businesses across the region.</p>",
+        "position": "CEO & Founder",
+        "email": "david@techguard.com",
+        "phone": "+1 (555) 100-2000",
+        "photo": { "uri": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80", "alt": "David Park headshot", "title": "David Park" },
+        "certifications": "CISSP, PMP, ITIL v4 Master"
+      }
+    },
+    {
+      "id": "team-rachel",
+      "type": "node.team_member",
+      "path": "/team/rachel-foster",
+      "values": {
+        "title": "Rachel Foster",
+        "body": "<p>Rachel leads our cybersecurity division, bringing over a decade of experience in threat intelligence, incident response, and security architecture. She has protected organizations in healthcare, finance, and government sectors.</p>",
+        "position": "Director of Security",
+        "email": "rachel@techguard.com",
+        "phone": "+1 (555) 100-2001",
+        "photo": { "uri": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800&q=80", "alt": "Rachel Foster headshot", "title": "Rachel Foster" },
+        "certifications": "CISSP, CEH, OSCP, CompTIA Security+"
+      }
+    },
+    {
+      "id": "team-james",
+      "type": "node.team_member",
+      "path": "/team/james-wright",
+      "values": {
+        "title": "James Wright",
+        "body": "<p>James oversees all cloud infrastructure and managed services operations. He architects scalable solutions across AWS, Azure, and GCP, and ensures SLA commitments are consistently met.</p>",
+        "position": "VP of Cloud Operations",
+        "email": "james@techguard.com",
+        "phone": "+1 (555) 100-2002",
+        "photo": { "uri": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=80", "alt": "James Wright headshot", "title": "James Wright" },
+        "certifications": "AWS Solutions Architect Pro, Azure Solutions Architect, GCP Professional"
+      }
+    },
+    {
+      "id": "about-page",
+      "type": "node.page",
+      "path": "/about",
+      "values": {
+        "title": "About TechGuard IT Solutions",
+        "body": "<p>Founded in 2015, TechGuard IT Solutions is a trusted managed services provider serving over 100 businesses across the region. We combine deep technical expertise with a client-first approach to deliver IT solutions that drive business growth.</p><h2>Our Values</h2><ul><li><strong>Security First</strong> - Every solution we build prioritizes the protection of your data and systems</li><li><strong>Transparency</strong> - Clear communication, honest assessments, and no hidden costs</li><li><strong>Partnership</strong> - We succeed when our clients succeed, building long-term relationships</li></ul><h2>Certifications</h2><p>Our team holds certifications from Microsoft, AWS, Cisco, CompTIA, and (ISC)2. We maintain SOC 2 compliance and follow ITIL best practices.</p>"
+      }
+    },
+    {
+      "id": "careers-page",
+      "type": "node.page",
+      "path": "/careers",
+      "values": {
+        "title": "Careers at TechGuard",
+        "body": "<p>Join a team of passionate IT professionals dedicated to protecting and empowering businesses through technology. We offer competitive compensation, continuous learning opportunities, and a collaborative work environment.</p><h2>Why TechGuard?</h2><ul><li>Certification sponsorship and training budget</li><li>Flexible remote and hybrid work options</li><li>Quarterly team events and annual conference attendance</li><li>Health, dental, and vision coverage</li></ul><h2>Open Positions</h2><p>Check our careers page regularly for new opportunities in security, cloud engineering, help desk, and project management.</p>"
+      }
+    }
+  ]
+}

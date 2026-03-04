@@ -1,0 +1,185 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-managed-it",
+          "title": "Managed IT Services",
+          "path": "/services/managed-it",
+          "body": {
+            "processed": "<p>Our fully managed IT services provide 24/7 monitoring, maintenance, and support for your entire technology stack. We act as your outsourced IT department, handling everything from patch management to strategic planning.</p><h2>What's Included</h2><ul><li>24/7 network and server monitoring</li><li>Automated patch management and updates</li><li>Proactive maintenance and health checks</li><li>Vendor management and procurement</li><li>Strategic IT roadmap planning</li><li>Monthly reporting and business reviews</li></ul>",
+            "summary": "Our fully managed IT services provide 24/7 monitoring, maintenance, and support for your entire technology stack. We act as your outsourced IT department, handling everything from patch management to "
+          },
+          "serviceCategory": [
+            {
+              "id": "managed-it",
+              "name": "managed-it"
+            }
+          ],
+          "iconName": "server",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+            "alt": "Server room with managed IT infrastructure",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "priceRange": "Starting at $99/user/month"
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-cybersecurity",
+          "title": "Cybersecurity & Compliance",
+          "path": "/services/cybersecurity",
+          "body": {
+            "processed": "<p>Protect your business from evolving cyber threats with our comprehensive security services. From endpoint protection to compliance auditing, we build layered defenses that keep your data safe.</p><h2>Security Solutions</h2><ul><li>Endpoint Detection & Response (EDR)</li><li>Security Information & Event Management (SIEM)</li><li>Multi-factor authentication deployment</li><li>Security awareness training programs</li><li>Compliance auditing (HIPAA, PCI-DSS, SOC 2)</li><li>Incident response planning and tabletop exercises</li></ul>",
+            "summary": "Protect your business from evolving cyber threats with our comprehensive security services. From endpoint protection to compliance auditing, we build layered defenses that keep your data safe.Security"
+          },
+          "serviceCategory": [
+            {
+              "id": "cybersecurity",
+              "name": "cybersecurity"
+            }
+          ],
+          "iconName": "shield-check",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+            "alt": "Cybersecurity digital lock and shield",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "priceRange": "Custom pricing"
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-cloud",
+          "title": "Cloud Solutions & Migration",
+          "path": "/services/cloud-solutions",
+          "body": {
+            "processed": "<p>Modernize your infrastructure with expert cloud services. Whether you're migrating to Microsoft 365, deploying Azure infrastructure, or building a hybrid cloud strategy, we guide you through every step.</p><h2>Cloud Capabilities</h2><ul><li>Microsoft 365 deployment and management</li><li>Azure and AWS infrastructure design</li><li>Cloud migration planning and execution</li><li>Hybrid cloud architecture</li><li>Cloud backup and disaster recovery</li><li>Cost optimization and right-sizing</li></ul>",
+            "summary": "Modernize your infrastructure with expert cloud services. Whether you're migrating to Microsoft 365, deploying Azure infrastructure, or building a hybrid cloud strategy, we guide you through every ste"
+          },
+          "serviceCategory": [
+            {
+              "id": "cloud-services",
+              "name": "cloud-services"
+            }
+          ],
+          "iconName": "cloud",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+            "alt": "Cloud computing network visualization",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "priceRange": "Starting at $2,500/month"
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-helpdesk",
+          "title": "Help Desk & End-User Support",
+          "path": "/services/helpdesk-support",
+          "body": {
+            "processed": "<p>Give your employees fast, friendly IT support whenever they need it. Our US-based help desk team resolves issues quickly so your team stays productive.</p><h2>Support Features</h2><ul><li>Phone, email, and chat support channels</li><li>Remote troubleshooting and resolution</li><li>On-site support when needed</li><li>Self-service portal and knowledge base</li><li>New employee onboarding and offboarding</li><li>Hardware provisioning and setup</li></ul>",
+            "summary": "Give your employees fast, friendly IT support whenever they need it. Our US-based help desk team resolves issues quickly so your team stays productive.Support FeaturesPhone, email, and chat support ch"
+          },
+          "serviceCategory": [
+            {
+              "id": "helpdesk",
+              "name": "helpdesk"
+            }
+          ],
+          "iconName": "headset",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80",
+            "alt": "IT support professional helping a client",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          },
+          "priceRange": "Starting at $49/user/month"
+        }
+      ]
+    }
+  }
+}

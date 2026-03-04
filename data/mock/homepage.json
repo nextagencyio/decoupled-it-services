@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Welcome to Sentinel IT Solutions",
+          "path": "/homepage",
+          "heroTitle": "IT That Works While You Work",
+          "heroSubtitle": "Managed Services. Cybersecurity. Cloud Solutions.",
+          "heroDescription": {
+            "processed": "<p>Sentinel IT Solutions is your dedicated technology partner. We proactively manage, secure, and optimize your IT infrastructure so you can focus on growing your business.</p>",
+            "summary": "Sentinel IT Solutions is your dedicated technology partner. We proactively manage, secure, and optimize your IT infrastructure so you can focus on growing your business."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-uptime",
+              "title": "",
+              "number": "99.97%",
+              "label": "Average Uptime"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-clients",
+              "title": "",
+              "number": "350+",
+              "label": "Businesses Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-endpoints",
+              "title": "",
+              "number": "18,000+",
+              "label": "Endpoints Managed"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-response",
+              "title": "",
+              "number": "<15 min",
+              "label": "Avg Response Time"
+            }
+          ],
+          "featuredItemsTitle": "Our Services",
+          "ctaTitle": "Let's Secure Your Business",
+          "ctaDescription": {
+            "processed": "<p>Schedule a free IT assessment and discover how Sentinel can reduce downtime, strengthen security, and lower your technology costs.</p>",
+            "summary": "Schedule a free IT assessment and discover how Sentinel can reduce downtime, strengthen security, and lower your technology costs."
+          },
+          "ctaPrimary": "Get a Free Assessment",
+          "ctaSecondary": "View Case Studies"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "data": {
+    "nodeTeamMembers": {
+      "__typename": "NodeTeamMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-david",
+          "title": "David Park",
+          "path": "/team/david-park",
+          "body": {
+            "processed": "<p>David founded Sentinel IT Solutions in 2012 after spending 15 years in enterprise IT management. His vision was to bring enterprise-grade IT services to small and mid-size businesses at an accessible price point. Under his leadership, Sentinel has grown to serve over 350 businesses across the Midwest.</p>",
+            "summary": "David founded Sentinel IT Solutions in 2012 after spending 15 years in enterprise IT management. His vision was to bring enterprise-grade IT services to small and mid-size businesses at an accessible "
+          },
+          "position": "Founder & CEO",
+          "certifications": [
+            "CISSP",
+            "PMP",
+            "ITIL v4 Master"
+          ],
+          "email": "david@sentinelit.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+            "alt": "David Park - Founder & CEO",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-rachel",
+          "title": "Rachel Kim",
+          "path": "/team/rachel-kim",
+          "body": {
+            "processed": "<p>Rachel leads Sentinel's cybersecurity practice, bringing over a decade of experience from roles at Mandiant and CrowdStrike. She designs and implements security programs that protect our clients from the latest threats while keeping them compliant with industry regulations.</p>",
+            "summary": "Rachel leads Sentinel's cybersecurity practice, bringing over a decade of experience from roles at Mandiant and CrowdStrike. She designs and implements security programs that protect our clients from "
+          },
+          "position": "Director of Security",
+          "certifications": [
+            "CISSP",
+            "CEH",
+            "CISM",
+            "CompTIA Security+"
+          ],
+          "email": "rachel@sentinelit.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+            "alt": "Rachel Kim - Director of Security",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-marcus",
+          "title": "Marcus Thompson",
+          "path": "/team/marcus-thompson",
+          "body": {
+            "processed": "<p>Marcus oversees all cloud infrastructure projects at Sentinel. A certified Azure Solutions Architect and AWS Professional, he has led over 100 cloud migration projects ranging from small office setups to complex multi-cloud enterprise environments.</p>",
+            "summary": "Marcus oversees all cloud infrastructure projects at Sentinel. A certified Azure Solutions Architect and AWS Professional, he has led over 100 cloud migration projects ranging from small office setups"
+          },
+          "position": "Cloud Solutions Architect",
+          "certifications": [
+            "Azure Solutions Architect Expert",
+            "AWS Solutions Architect Professional",
+            "Google Cloud Professional"
+          ],
+          "email": "marcus@sentinelit.com",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+            "alt": "Marcus Thompson - Cloud Solutions Architect",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
