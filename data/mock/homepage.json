@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-uptime",
               "title": "",
-              "number": "99.97%",
+              "number": "99.97%", "value": "99.97%",
               "label": "Average Uptime"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-clients",
               "title": "",
-              "number": "350+",
+              "number": "350+", "value": "350+",
               "label": "Businesses Served"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-endpoints",
               "title": "",
-              "number": "18,000+",
+              "number": "18,000+", "value": "18,000+",
               "label": "Endpoints Managed"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-response",
               "title": "",
-              "number": "<15 min",
+              "number": "<15 min", "value": "<15 min",
               "label": "Avg Response Time"
             }
           ],
