@@ -7,15 +7,21 @@ export const GET_HOMEPAGE_DATA = gql`
       nodes {
         id
         title
-      heroTitle
-      heroSubtitle
-      heroDescription { processed summary }
-      statsItems
-      featuredItemsTitle
-      ctaTitle
-      ctaDescription { processed summary }
-      ctaPrimary
-      ctaSecondary
+        heroTitle
+        heroSubtitle
+        heroDescription { processed }
+        statsItems {
+          ... on ParagraphStatItem {
+            id
+            number
+            label
+          }
+        }
+        featuredItemsTitle
+        ctaTitle
+        ctaDescription { processed }
+        ctaPrimary
+        ctaSecondary
       }
     }
   }
@@ -29,12 +35,16 @@ export const GET_SERVICES = gql`
         title
         path
         created { timestamp }
-        ... on NodeService {
-          serviceCategory
-          iconName
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          priceRange
+        body { processed }
+        serviceCategory {
+          ... on TermServiceCategory {
+            id
+            name
+          }
         }
+        iconName
+        image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+        priceRange
       }
     }
   }
@@ -49,10 +59,16 @@ export const GET_SERVICE_BY_PATH = gql`
             id
             title
             path
-          serviceCategory
-          iconName
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-          priceRange
+            body { processed }
+            serviceCategory {
+              ... on TermServiceCategory {
+                id
+                name
+              }
+            }
+            iconName
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            priceRange
           }
         }
       }
@@ -68,12 +84,16 @@ export const GET_CASE_STUDIES = gql`
         title
         path
         created { timestamp }
-        ... on NodeCaseStudy {
-          industry
-          clientName
-          resultsSummary
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+        body { processed }
+        industry {
+          ... on TermIndustry {
+            id
+            name
+          }
         }
+        clientName
+        resultsSummary
+        image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
       }
     }
   }
@@ -88,10 +108,16 @@ export const GET_CASE_STUDY_BY_PATH = gql`
             id
             title
             path
-          industry
-          clientName
-          resultsSummary
-          image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed }
+            industry {
+              ... on TermIndustry {
+                id
+                name
+              }
+            }
+            clientName
+            resultsSummary
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -107,12 +133,11 @@ export const GET_TEAM_MEMBERS = gql`
         title
         path
         created { timestamp }
-        ... on NodeTeamMember {
-          position
-          certifications
-          email
-          photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
-        }
+        body { processed }
+        position
+        certifications
+        email
+        photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
       }
     }
   }
@@ -127,10 +152,11 @@ export const GET_TEAM_MEMBER_BY_PATH = gql`
             id
             title
             path
-          position
-          certifications
-          email
-          photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            body { processed }
+            position
+            certifications
+            email
+            photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
@@ -147,11 +173,66 @@ export const GET_NODE_BY_PATH = gql`
           ... on NodeHomepage {
             id
             title
+            heroTitle
+            heroSubtitle
+            heroDescription { processed }
+            statsItems {
+              ... on ParagraphStatItem {
+                id
+                number
+                label
+              }
+            }
+            featuredItemsTitle
+            ctaTitle
+            ctaDescription { processed }
+            ctaPrimary
+            ctaSecondary
           }
           ... on NodePage {
             id
             title
             body { processed }
+          }
+          ... on NodeService {
+            id
+            title
+            path
+            body { processed }
+            serviceCategory {
+              ... on TermServiceCategory {
+                id
+                name
+              }
+            }
+            iconName
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+            priceRange
+          }
+          ... on NodeCaseStudy {
+            id
+            title
+            path
+            body { processed }
+            industry {
+              ... on TermIndustry {
+                id
+                name
+              }
+            }
+            clientName
+            resultsSummary
+            image { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
+          }
+          ... on NodeTeamMember {
+            id
+            title
+            path
+            body { processed }
+            position
+            certifications
+            email
+            photo { url alt width height variations(styles: [LARGE, MEDIUM, THUMBNAIL]) { name url width height } }
           }
         }
       }
